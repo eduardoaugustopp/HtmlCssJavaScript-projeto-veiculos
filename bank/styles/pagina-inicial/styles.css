@@ -1,0 +1,288 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--branco); 
+  text-align: center; 
+}
+
+.banner::before {
+  content: "";
+  background-image: url("/bank/img_bank/cliente.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1; 
+}
+
+
+.banner__titulo,
+.conta__titulo {
+
+  color: #000; 
+  text-align: left; 
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 39px;
+}
+
+
+.banner__titulo {
+  width: 32%;
+  margin: 0 5em;
+}
+
+.servicos__titulo,
+.beneficios__titulo {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.lista-servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4em 0;
+}
+
+.item-servicos__titulo {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding: 0.5em 0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.item-servicos__imagem {
+  display: block;
+}
+.conta {
+  position: relative; /* Definindo a posição como relativa */
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  font-size: 25px;
+}
+
+.conta::before {
+  content: ""; /* Adicionando conteúdo vazio */
+  background-image: url("/bank/img_bank/desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute; /* Posicionando o pseudo-elemento */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+}
+
+.conta__container {
+  position: relative; /* Definindo a posição como relativa */
+  z-index: 1; /* Garantindo que o conteúdo fique acima do pseudo-elemento */
+  width: 80%;
+  margin-left: 4em;
+}
+
+.conta__botao {
+  display: block;
+  margin-top: 0.5em;
+  width: 50%;
+  text-align: center;
+  background: var(--preto);
+  border-radius: 20px;
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0.5em;
+}
+
+.beneficios-lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4em;
+  text-align: center;
+}
+
+.beneficios-lista__item {
+  width: 20%;
+}
+
+.beneficios__icone {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.icone-presente {
+  background-image: url("/bank/img_bank/presente.png");
+}
+
+.icone-saque {
+  background-image: url("/bank/img_bank/saque.png");
+}
+
+.icone-estrela {
+  background-image: url("/bank/img_bank/estrela.png");
+}
+
+.beneficios-lista__titulo {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--vermelho);
+  margin: 0.5em 0;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff; 
+    text-align: center; /
+  }
+  
+  .banner::before {
+    content: "";
+    background-image: url("/bank/img_bank/cliente.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1; 
+  }
+  
+
+  .banner__titulo,
+  .conta__titulo {
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .banner__titulo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .servicos__titulo,
+  .beneficios__titulo {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1em 0;
+  }
+
+  .lista-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+  }
+
+  .item-servicos__titulo {
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 1em;
+  }
+
+  .item-servicos__imagem {
+    display: none;
+  }
+
+  .conta {
+    position: relative; /* Definindo a posição como relativa */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .conta::before {
+    content: ""; /* Adicionando conteúdo vazio */
+    background-image: url("/bank/img_bank/desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute; /* Posicionando o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  }
+  
+  .conta__container {
+    position: relative; /* Definindo a posição como relativa */
+    z-index: 1; /* Garantindo que o conteúdo fique acima do pseudo-elemento */
+    width: 90%;
+    margin: 2em 0;
+    text-align: center;
+  }
+  
+  .conta__botao {
+    margin-top: 1em;
+    width: 70%;
+    padding: 0.5em;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+
+  .beneficios-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+  }
+
+  .beneficios-lista__item {
+    width: 30%;
+    margin-bottom: 1em;
+  }
+
+  .beneficios__icone {
+    width: 60px;
+    height: 60px;
+  }
+
+  .beneficios-lista__titulo {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--vermelho);
+    margin: 0.5em 0;
+  }
+}

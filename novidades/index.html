@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta metacharset="UTF-8" />
+  <link rel="icon" href="../img/foguete.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veículos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header class="header">
+  <h1><img src="imagens/logo.png" />
+    <a href="../index.html" class="voltar">
+      <img src="imagens/Voltar.png" alt="Sair">
+  </a>
+</header>
+
+<body>
+  <div class="video">
+    <div class="overlay"></div>
+    <video autoplay muted loop id="meuVideo">
+      <source src="./video/Audi_A8.mp4" type="video/mp4">
+    </video>
+    <button id="playPauseButton">Play/Pause</button>
+  </div>
+  
+  <nav class="wrap">
+    <ul class="nav">
+      <li><button class="btn btn-popular" href="#" id="btnFiltrarCarrosPopular" value="carro popular">CARRO POPULAR</button></li>
+      <li><button class="btn btn-suv" href="#" id="btnFiltrarCarrosSuv" value="SUV">CARRO SUV</button></li>
+      <li><button class="btn btn-eletrico" href="#" id="btnFiltrarCarrosEletrico" value="carro elétrico">CARRO ELÉTRICO</button></li>
+      <li><button class="btn btn-disponiveis" href="#" id="btnCarrosDisponiveis" value="disponivel">CARROS DISPONÍVEIS</button></li>
+      <li><button class="btn btn-ordenacao" href="#" id="btnOrdenarPorPreco">ORDENAR POR PREÇO</button></li>
+    </ul>
+  </nav>
+
+  <section class="carros wrap" id="carros">
+  
+  </section>
+  <section id="valor_total_carros_disponiveis">
+    <div class="carros__disponiveis">
+      <p>Valor total dos carros disponíveis R$ <span id="valor">5000,00</span></p>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p class="rodape__texto">® 2024 Veículos</p>
+    <p class="rodape__texto">Eduardo Augusto Paiva Pinto</p>
+    <p class="rodape__texto">Santa Rita do Sapucaí, MG / Brasil</p>
+  </footer>
+  <script src="app/main.js"></script>
+  <script src="app/metodoForEach.js"></script>
+  <script src="app/metodoMap.js"></script>
+  <script src="app/metodoFilter.js"></script>
+  <script src="app/metodoSort.js"></script>
+  <script src="app/metodoReduce.js"></script>
+</body>
+
+</html>

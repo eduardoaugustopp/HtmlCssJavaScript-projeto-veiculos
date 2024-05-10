@@ -1,0 +1,112 @@
+[
+    {
+        "titulo": "Fiat Mobi: O carro acessível para todos",
+        "preco": 69.994,
+        "autor": "Fiat",
+        "imagem": "https://s2-autoesporte.glbimg.com/SgMuqnuUHhNS2GH-orVgtr4OU8I=/0x0:3200x1989/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2021/Q/M/aPi972S6ecHzFRtZQiWw/negs.jpg",
+        "alt": "Foto do Fiat Mobi",
+        "quantidade": 50,
+        "categoria": "carro popular"
+    },
+	{
+        "titulo": "Audi e-tron GT: Desempenho ecológico com estilo",
+        "preco": 699.997,
+        "autor": "Audi",
+        "imagem": "https://s2-autoesporte.glbimg.com/EQwygF3w8TkRTKZ7jGzpE12m12k=/0x0:1024x748/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2023/L/A/XzFtDvR4KFpb6iRvDqyg/audi-e-tron-gt-quattro-2022-1024-04.jpg",
+        "alt": "Foto do Audi e-tron",
+        "quantidade": 8,
+        "categoria": "carro elétrico"
+    },
+    {
+        "titulo": "Volkswagen Gol: O clássico nacional",
+        "preco": 34.815,
+        "autor": "Volkswagen",
+        "imagem": "https://s2-autoesporte.glbimg.com/3EgKP_GD7pf7-BmNtHVJT6qg1HU=/0x0:1400x912/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/R/M/K7kos5QGafxzSGEkFP7Q/dsc06181.jpg",
+        "alt": "Foto do Volkswagen Gol",
+        "quantidade": 11,
+        "categoria": "carro popular"
+    },
+    {
+        "titulo": "Chevrolet Onix: Conforto e economia em um só carro",
+        "preco": 87.795,
+        "autor": "Chevrolet",
+        "imagem": "https://s2-autoesporte.glbimg.com/j3nzWEjxp_VVsOMh1fqSjUHiw98=/0x0:1588x1080/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2024/z/R/YgN3WrRq2pkZAkwZsDoA/chevrolet-onix.jpg",
+        "alt": "Foto do Chevrolet Onix",
+        "quantidade": 0,
+        "categoria": "carro popular"
+    },	
+    {
+        "titulo": "Ford Ka: Tecnologia e praticidade para o dia a dia",
+        "preco": 68.993,
+        "autor": "Ford",
+        "imagem": "https://s2-autoesporte.glbimg.com/kLKWADiOUPa1ztNZaBG2U-z13OQ=/0x0:966x600/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2021/X/N/XWVkWbQgm76WViEZFt0g/ka2021-1-.jpg",
+        "alt": "Foto do Ford Ka",
+        "quantidade": 42,
+        "categoria": "carro popular"
+    },
+	{
+        "titulo": "Jeep Renegade: Aventura e conforto na cidade e na estrada",
+        "preco": 115.999,
+        "autor": "Jeep",
+        "imagem": "https://s2-autoesporte.glbimg.com/CQ8siQEASyjEeT74hDdQ7GjoD9c=/0x0:1600x1200/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/K/O/OVNesXSyeuHCHTHRTEeA/jeep-renegade-2016-5-.jpg",
+        "alt": "Foto do Jeep Renegade",
+        "quantidade": -2,
+        "categoria": "SUV"
+    },
+	{
+        "titulo": "Honda WR-V: A robustez de um SUV",
+        "preco": 499.891,
+        "autor": "Honda",
+        "imagem": "https://s2-autoesporte.glbimg.com/mlcv8DPsM01RTskNB8yrl3VI0Lk=/0x0:1920x1160/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2024/3/8/1boAjJQFAUBojq8pJYcA/hondawrv-02.jpg",
+        "alt": "Foto do Honda WR-V",
+        "quantidade": 28,
+        "categoria": "SUV"
+    },
+	{
+        "titulo": "Ford EcoSport: Versatilidade para todos os terrenos",
+        "preco": 69.128,
+        "autor": "Ford",
+        "imagem": "https://s2-autoesporte.glbimg.com/lwAcB2ZrmbVrFcNANUwrOG9PyZM=/0x0:1879x1236/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/d/d/9znKjDSJCbDcu6BNOO8g/ford-ecosport-95.jpg",
+        "alt": "Foto do Ford EcoSport",
+        "quantidade": 20,
+        "categoria": "SUV"
+    },
+    {
+        "titulo": "Renault Kwid: Compacto por fora, espaçoso por dentro",
+        "preco": 39.987,
+        "autor": "Renault",
+        "imagem": "https://s2-autoesporte.glbimg.com/R-S5_rhfKDqT8IrIdrJuS-wCuuE=/0x0:1500x930/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2023/j/I/yBbMg7SGS9H0c7tZLuUQ/renault-kwid-intense-57.jpg",
+        "alt": "Foto do Renault Kwid",
+        "quantidade": 255,
+        "categoria": "carro popular"
+    },
+    {
+        "titulo": "Tesla Model 3: A revolução dos carros elétricos",
+        "preco": 109.667,
+        "autor": "Tesla",
+        "imagem": "https://s2-autoesporte.glbimg.com/J7SJb1_hWFZrAzE6X-mvPpW-cx0=/0x0:620x413/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/b/3/0vPW5GRjukrUtVDNVT0g/2017-07-10-2-2m69brx.jpg",
+        "alt": "Foto do Tesla Model 3",
+        "quantidade": 42,
+        "categoria": "carro elétrico"
+    },
+	{
+        "titulo": "Toyota Corolla: O sedã confiável e elegante",
+        "preco": 180.987,
+        "autor": "Toyota",
+        "imagem": "https://s2-autoesporte.glbimg.com/-EWB7nKT_s7piD3fUEf2U0UEA30=/0x0:1600x1166/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2023/R/M/MAMhzmTTSNdl7rxXpAMA/toyota-corolla-2024.jpg",
+        "alt": "Foto do Toyota Corolla",
+        "quantidade": 0,
+        "categoria": "carro popular"
+    },
+    {
+        "titulo": "Hyundai HB20: Estilo e eficiência em um compacto moderno",
+        "preco": 105.596,
+        "autor": "Hyundai",
+        "imagem": "https://s2-autoesporte.glbimg.com/A_bU7JbfeDrsU3qDeICTqHAlql8=/0x0:1400x788/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/J/R/5F9zL0T0AfQGnbDvq2Zw/hyundai-hb20s-platinum-plus-20234.jpg",
+        "alt": "Foto do Hyundai HB20",
+        "quantidade": 0,
+        "categoria": "carro popular"
+    }
+	
+
+]
