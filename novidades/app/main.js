@@ -1,5 +1,5 @@
 let carros = [];
-const endpointDaAPI = '';
+const endpointDaAPI = 'https://raw.githubusercontent.com/eduardoaugustopp/projeto-veiculos-carros-motos/main/novidades/carrocodigo.json';
 getBuscarCarrosDaAPI()
 
 async function getBuscarCarrosDaAPI() {
